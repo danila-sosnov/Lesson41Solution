@@ -45,8 +45,21 @@ int main()
 
 	}
 
-	cout << "Sum of elements of main diagonale is " << sum_main_elements;
-	cout << "Sum of elements of main diagonale is " << sum_add_elements;
+	for (int i = 0; i < N; i++)
+	{
+		for (int j = 0; j < N; j++)
+		{
+			cout << matrix[i][j] << " ";
+		}
+
+		cout << endl;
+
+	}
+
+	
+
+	cout << "Sum of elements of main diagonale is " << sum_main_elements(matrix) << endl;
+	cout << "Sum of elements of add diagonale is " << sum_add_elements(matrix);
 
 
 

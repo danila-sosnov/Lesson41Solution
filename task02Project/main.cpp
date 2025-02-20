@@ -6,13 +6,7 @@ using namespace std;
 
 #define MAX_MARK 10
 
-int sum_main_elements()
-{
-	for (int i = 0; i < N; i++)
-	{
 
-	}
-}
 
 int main()
 {
